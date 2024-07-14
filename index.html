@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="alarm.css">
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+    <title>AlarmClock</title>
+   <link rel="icon" type="image/x-icon" href="alarm.png">
+</head>
+
+<body>
+    <div class="section1">
+        <div class="header">
+            <dotlottie-player src="https://lottie.host/aaa6c165-c773-425f-929e-dc364f36e3bc/PFtGEODsAH.json"
+                background="transparent" speed="1"
+                style="width: 300px; z-index:40;display:flex; height: 300px;" loop autoplay></dotlottie-player>
+            <div class="head-text">
+                <h3 class="head">TIME TICKS</h3>
+            </div>
+        </div>
+        <div class="day-time">
+            <div class="date-container">
+                <div class="date-number"></div>
+                <div class="day"></div>
+                <div class="dateWithyear">
+
+                </div>
+            </div>
+
+            <div class="time-container">
+                <div class="time-boxes"></div>
+                <div class="time-boxes2"></div>
+                <div class="time-boxes3"></div>
+                <div class="hour hand">HOUR</div>
+                <div class="min hand">MINUTES</div>
+                <div class="seconds hand">SECONDS</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section2">
+        <div class="dayz">
+            <ul>
+                <li class="days" >MONDAY</li>
+            <li  class="days" >TUESDAY</li>
+            <li class="days"  >WEDNESDAY</li>
+            <li class="days" >THURSDAY</li>
+            <li class="days" >FRIDAY</li>
+            <li class="days" >SATURDAY</li>
+            <li class="days" >SUNDAY</li>
+            
+        </ul></div>
+        <div class="head2"><h3 class="head2-text">SET YOUR ALARM HERE</h3></div>
+        <div class="time-container2">
+            <div class="time-box box1"></div>
+            <div class="time-box box2"></div>
+            <div class="time-box box3"></div>
+            <div class=" hand H">HOUR</div>
+            <div class=" hand M">MINUTES</div>
+            <div class=" hand S">SECONDS</div>
+        </div>
+    <button class="setButton">SET ALARM</button>
+    <button class="stopAlarm">STOP ALARM</button>
+    <div class="alarmSet">
+       
+    </div>
+    </div>
+    <script src="alarm.js"></script>
+</body>
+
+</html>
+
